@@ -23,6 +23,11 @@ export const Box1 = styled.div`
     font-size:30px;
     cursor:pointer;
 
+
+    &:hover{
+        box-shadow: 0 0 10px black;
+    }
+
 `;
 
 
@@ -34,6 +39,10 @@ export const Box2 = styled.div`
     align-items:center;
     cursor:pointer;
 
+    
+ 
+
+
     div{
         
         width:300px;
@@ -42,6 +51,10 @@ export const Box2 = styled.div`
         display:flex;
         align-items:center;
         justify-content:center;
+
+        &:hover{
+            box-shadow: 0 0 10px black;
+        }
 
         & + div{
             margin-top:10px;
