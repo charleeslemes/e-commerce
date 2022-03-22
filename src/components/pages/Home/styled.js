@@ -49,7 +49,10 @@ export const Box2 = styled.div`
 
 
         h2{
-            color:white;
+            a{
+                color:white;
+                text-decoration:none;
+            }
         }
 
     }
@@ -63,7 +66,7 @@ export const Feed = styled.div`
     margin: 80px auto;
     display:flex;
     width:100%;
-    background-color:green;
+    background-color:white;
 `;
 
 
@@ -78,9 +81,12 @@ export const Moda = styled.div`
 
 export const Roupa = styled.div`
     width:100%;
-    background-color:red;
-    margin: 0 auto;
-    border: 10px solid #ccc;
+    background-color:white;
+    margin: 5px 10px;
+
+    &:hover{
+        box-shadow: 0 0 10px black;
+    }
 `;
 
 
@@ -89,16 +95,43 @@ export const Roupa = styled.div`
 export const ImgRoupa = styled.div`
     width:100%;
     padding-top:100%;
-    background-color:pink;
-
+    background-color: blueviolet;
+    cursor:pointer;
+    
 
 `;
 
 
 export const Descricao = styled.div`
-    justify-content:center;
+    margin: 10px 0;
+    text-align: center;
     display:flex;
-    text-align:center;
+    justify-content: space-between;
+
+    .btnFavorito{
+        border 0;
+        background-color:transparent;
+        margin-left: 25px;
+        
+
+        svg{
+            font-size: 25px;
+            color: #003862;
+        }
+    }
+
+    .btnCompra{
+        border:0;
+        background-color: transparent;
+        margin-right:25px;
+
+        svg{
+            font-size:25px;
+            color: green;
+        }
+    }
+
+
 
 
 `;
