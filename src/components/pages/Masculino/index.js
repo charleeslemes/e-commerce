@@ -1,6 +1,7 @@
 
 import Menu from '../../Menu';
-import {Title, SideBar, Feed, Container, Form} from './styled';
+import {Title, SideBar, Feed, Container, Form, Moda, Roupa, ImgRoupa, Descricao,  } from './styled';
+import { FaHeart, FaShoppingCart} from 'react-icons/fa';
 
 export default function Masculino(){
     return(
@@ -35,8 +36,205 @@ export default function Masculino(){
                 </SideBar>
 
                 <Feed>
+            
+            <Moda>
+                <Roupa>
 
-                </Feed>
+                  <ImgRoupa></ImgRoupa>
+
+                  <Descricao>
+                  <button className='btnFavorito'><FaHeart/></button>
+                      <div>
+                      <h3>Nome da peça</h3>
+                      <p>29,90R$</p>
+                      </div>
+                      <button className='btnCompra'><FaShoppingCart/></button>
+                      
+
+                  </Descricao>
+
+                </Roupa>
+            </Moda>
+
+            <Moda>
+                <Roupa>
+
+                  <ImgRoupa></ImgRoupa>
+
+                  <Descricao>
+                  <button className='btnFavorito'><FaHeart/></button>
+                      
+                      <div>
+                      <h3>Nome da peça</h3>
+                      <p>29,90R$</p>
+                      </div>
+
+                      <button className='btnCompra'><FaShoppingCart/></button>
+                      
+
+                  </Descricao>
+
+                </Roupa>
+            </Moda>
+
+
+            <Moda>
+                <Roupa>
+
+                  <ImgRoupa></ImgRoupa>
+
+                  <Descricao>
+                    <button className='btnFavorito'><FaHeart/></button>
+                      
+                      <div>
+                      <h3>Nome da peça</h3>
+                      <p>29,90R$</p>
+                      </div>
+
+                      <button className='btnCompra'><FaShoppingCart/></button>
+                      
+
+                  </Descricao>
+
+                </Roupa>
+            </Moda>
+
+
+            <Moda>
+                <Roupa>
+
+                  <ImgRoupa></ImgRoupa>
+
+                  <Descricao>
+                  <button className='btnFavorito'><FaHeart/></button>
+                      
+                      <div>
+                      <h3>Nome da peça</h3>
+                      <p>29,90R$</p>
+                      </div>
+
+                      <button className='btnCompra'><FaShoppingCart/></button>
+                      
+
+                  </Descricao>
+
+                </Roupa>
+            </Moda>
+
+            <Moda>
+                <Roupa>
+
+                  <ImgRoupa></ImgRoupa>
+
+                  <Descricao>
+                  <button className='btnFavorito'><FaHeart/></button>
+                      
+                      <div>
+                      <h3>Nome da peça</h3>
+                      <p>29,90R$</p>
+                      </div>
+
+                      <button className='btnCompra'><FaShoppingCart/></button>
+                      
+
+                  </Descricao>
+
+                </Roupa>
+            </Moda>
+
+            <Moda>
+                <Roupa>
+
+                  <ImgRoupa></ImgRoupa>
+
+                  <Descricao>
+                  <button className='btnFavorito'><FaHeart/></button>
+                      
+                      <div>
+                      <h3>Nome da peça</h3>
+                      <p>29,90R$</p>
+                      </div>
+
+                      <button className='btnCompra'><FaShoppingCart/></button>
+                      
+
+                  </Descricao>
+
+                </Roupa>
+            </Moda>
+
+
+            <Moda>
+                <Roupa>
+
+                  <ImgRoupa></ImgRoupa>
+
+                  <Descricao>
+                  <button className='btnFavorito'><FaHeart/></button>
+                      
+                      <div>
+                      <h3>Nome da peça</h3>
+                      <p>29,90R$</p>
+                      </div>
+
+                      <button className='btnCompra'><FaShoppingCart/></button>
+                      
+
+                  </Descricao>
+
+                </Roupa>
+            </Moda>
+
+
+            <Moda>
+                <Roupa>
+
+                  <ImgRoupa></ImgRoupa>
+
+                  <Descricao>
+                  <button className='btnFavorito'><FaHeart/></button>
+                      
+                      <div>
+                      <h3>Nome da peça</h3>
+                      <p>29,90R$</p>
+                      </div>
+
+                      <button className='btnCompra'><FaShoppingCart/></button>
+                      
+
+                  </Descricao>
+
+                </Roupa>
+            </Moda>
+
+
+            <Moda>
+                <Roupa>
+
+                  <ImgRoupa></ImgRoupa>
+
+                  <Descricao>
+                  <button className='btnFavorito'><FaHeart/></button>
+                      
+                      <div>
+                      <h3>Nome da peça</h3>
+                      <p>29,90R$</p>
+                      </div>
+
+                      <button className='btnCompra'><FaShoppingCart/></button>
+                      
+
+                  </Descricao>
+
+                </Roupa>
+            </Moda>
+
+
+
+
+
+
+        </Feed>
 
             </Container>
 

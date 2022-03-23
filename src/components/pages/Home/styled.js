@@ -67,6 +67,8 @@ export const Feed = styled.div`
     display:flex;
     width:100%;
     background-color:white;
+    flex-wrap:wrap;
+
 `;
 
 
@@ -74,7 +76,8 @@ export const Feed = styled.div`
 export const Moda = styled.div`
     display:flex;
     justify-content:center;
-   width:25%;
+    width:25%;
+    
 `;
 
 

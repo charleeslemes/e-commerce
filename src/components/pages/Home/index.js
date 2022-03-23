@@ -94,6 +94,77 @@ import Menu from '../../Menu';
                 </Roupa>
             </Moda>
 
+            
+            <Moda>
+                <Roupa>
+
+                  <ImgRoupa></ImgRoupa>
+
+                  <Descricao>
+                  <button className='btnFavorito'><FaHeart/></button>
+                      
+                      <div>
+                      <h3>Nome da peça</h3>
+                      <p>29,90R$</p>
+                      </div>
+
+                      <button className='btnCompra'><FaShoppingCart/></button>
+                      
+
+                  </Descricao>
+
+                </Roupa>
+            </Moda>
+
+
+            
+            <Moda>
+                <Roupa>
+
+                  <ImgRoupa></ImgRoupa>
+
+                  <Descricao>
+                  <button className='btnFavorito'><FaHeart/></button>
+                      
+                      <div>
+                      <h3>Nome da peça</h3>
+                      <p>29,90R$</p>
+                      </div>
+
+                      <button className='btnCompra'><FaShoppingCart/></button>
+                      
+
+                  </Descricao>
+
+                </Roupa>
+            </Moda>
+
+            
+            <Moda>
+                <Roupa>
+
+                  <ImgRoupa></ImgRoupa>
+
+                  <Descricao>
+                  <button className='btnFavorito'><FaHeart/></button>
+                      
+                      <div>
+                      <h3>Nome da peça</h3>
+                      <p>29,90R$</p>
+                      </div>
+
+                      <button className='btnCompra'><FaShoppingCart/></button>
+                      
+
+                  </Descricao>
+
+                </Roupa>
+            </Moda>
+
+
+            
+
+
 
 
         </Feed>
