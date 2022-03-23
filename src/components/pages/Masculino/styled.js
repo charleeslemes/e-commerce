@@ -15,3 +15,57 @@ export const Title = styled.div`
     }
 
 `;
+
+
+export const Container = styled.div`
+    width:100%;
+    display:flex;
+
+`;
+
+
+export const SideBar = styled.div`
+    width: 20%;
+    text-align:center;
+    background-color: rgb(230,230,230);
+
+    li{
+
+    list-style:none;
+    margin-top: 20px;
+       
+
+        a{
+            color: rgb(110,110,110);
+            cursor: pointer;
+            
+        }
+
+    }
+
+
+`;
+
+
+export const Form = styled.form`
+    margin: 15px 0;
+
+
+    input{
+        margin: 15px 0;
+
+    }
+
+    span{
+        margin-right: 10px;
+    }
+
+`;
+
+
+export const Feed = styled.div`
+    background-color:blue;
+    width: 80%;
+`;
+
+
