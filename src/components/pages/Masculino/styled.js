@@ -64,7 +64,6 @@ export const Form = styled.form`
 
 
 export const Feed = styled.div`
-    background-color:blue;
     width: 80%;
     display:flex;
     flex-wrap:wrap;
